@@ -1,5 +1,6 @@
-package com.Jeka8833.DataStructureKPI.works;
+package com.Jeka8833.DataStructureKPI.work.pr;
 
+import com.Jeka8833.DataStructureKPI.work.Task;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -44,6 +45,6 @@ public class PR1 implements Task {
     @NotNull
     @Override
     public String name() {
-        return "Практикум №1";
+        return "Практикум №1 Робота з файлами в С++.";
     }
 }

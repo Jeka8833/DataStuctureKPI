@@ -1,7 +1,7 @@
 package com.Jeka8833.DataStructureKPI.console;
 
-import com.Jeka8833.DataStructureKPI.works.ExitException;
-import com.Jeka8833.DataStructureKPI.works.StepDownException;
+import com.Jeka8833.DataStructureKPI.work.ExitException;
+import com.Jeka8833.DataStructureKPI.work.StepDownException;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 

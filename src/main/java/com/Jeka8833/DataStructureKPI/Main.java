@@ -1,15 +1,15 @@
 package com.Jeka8833.DataStructureKPI;
 
 import com.Jeka8833.DataStructureKPI.console.Util;
-import com.Jeka8833.DataStructureKPI.works.ExitException;
-import com.Jeka8833.DataStructureKPI.works.PR1;
-import com.Jeka8833.DataStructureKPI.works.StepDownException;
-import com.Jeka8833.DataStructureKPI.works.TaskManager;
+import com.Jeka8833.DataStructureKPI.work.*;
+import com.Jeka8833.DataStructureKPI.work.pr.PR1;
+import com.Jeka8833.DataStructureKPI.work.pr.PR4;
 
 public class Main {
 
     private static void registerTasks() {
         TaskManager.registerTask(PR1.class);
+        TaskManager.registerTask(PR4.class);
     }
 
     public static void main(String[] args) {
